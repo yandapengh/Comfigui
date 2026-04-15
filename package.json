@@ -1,0 +1,14 @@
+{
+  "name": "comfigui",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "shared",
+    "web-editor",
+    "figma-plugin"
+  ],
+  "scripts": {
+    "typecheck": "npm run -ws typecheck",
+    "lint": "npm run -ws lint"
+  }
+}
